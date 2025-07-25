@@ -1,0 +1,184 @@
+:root {
+    --primary: #B88E2F;
+}
+
+.home-main {
+    background-image: url('../../../public/images/home/main.png');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.home-block {
+    display: inline-flex;
+    flex-direction: column;
+    position: absolute;
+    right: 90px;
+    top: 150px;
+    row-gap: 30px;
+    border-radius: 10px;
+    background: #FFF3E3;
+    width: 643px;
+    padding: 40px;
+}
+
+.home-block h1 {
+    color: var(--primary);
+    width: 400px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+
+.home-block p {
+    max-width: 550px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 133.333%;
+}
+
+.home-block h3 {
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #333;
+}
+
+.home-btn {
+    background: var(--primary);
+    padding: 25px;
+    max-width: 220px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.home-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    row-gap: 40px;
+}
+
+.home-text {
+    max-width: 500px;
+    text-align: center;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    column-gap: 40px;
+    align-items: center;
+}
+
+.image {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+
+.products  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.products_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+
+.show_btn {
+    padding: 15px 70px;
+    border: 1.5px solid var(--primary);
+    background-color: #fff;
+    color: var(--primary);
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+
+
+.scroll_page {
+    background-color: #FCF8F3;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.scrolls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    overflow: hidden;
+}
+.scroll_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+
+.scroll_info h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.scroll_img {
+    display: flex;
+    gap: 50px;
+    overflow-x: auto;            /* включаем горизонтальный скролл */
+    scroll-behavior: smooth;
+    padding-bottom: 10px;
+    margin-left: 90px;           /* заменяет position: relative + left */
+}
+
+.scroll_img img {
+    flex: 0 0 auto;              /* изображения не сжимаются, не растягиваются */
+    width: 400px;                /* или нужная тебе ширина */
+    height: auto;
+    border-radius: 8px;
+}
+.scroll_img::-webkit-scrollbar {
+    display: none;
+}
+.scroll_img {
+    -ms-overflow-style: none;  /* IE и Edge */
+    scrollbar-width: none;     /* Firefox */
+}
+
+.scroll_info p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.scroll-btn {
+    padding: 12px 30px;
+    background-color: var(--primary);
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+} 

@@ -1,0 +1,35 @@
+.header {
+    background: #ffffff;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    column-gap: 75px;
+    cursor: pointer;
+}
+
+.searches {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 75px;
+}
+
+.search {
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+}
